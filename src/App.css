@@ -1,0 +1,47 @@
+.todo-app {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-app-body{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-app-title{
+  font-size: 30px;
+}
+
+.todo-app-body-content{
+  width: 40%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition:  0.3s;
+}
+
+.todo-app-body-content-input{
+  outline: none;
+  width: 80%;
+  height: 20%;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+}
+
+.todo-app-body-content-btn{
+  outline: none;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
